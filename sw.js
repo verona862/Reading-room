@@ -1,6 +1,6 @@
 // Keeps The Reading Room working with no internet.
 // Change the version name whenever index.html is updated so iPads pick up the new copy.
-const CACHE = 'reading-room-v1';
+const CACHE = 'reading-room-v5';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
